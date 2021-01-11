@@ -1,10 +1,9 @@
 <template>
-  <!-- <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div id="nav">
+    <router-link to="/">作品</router-link> |
+    <router-link to="/about">社区</router-link>
+    <router-view />
   </div>
-  <router-view /> -->
-  <div>hello world</div>
 </template>
 
 <style>
